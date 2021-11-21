@@ -1,9 +1,8 @@
 def fibo (x):
-    a, b, c = 1, 1, 0
+    a, b = 1, 1
     for elem in range (x):
         print (a)
-        c = a + b
-        a, b = b, c
+        a, b = b, a + b
 
 
 fibo(5)
