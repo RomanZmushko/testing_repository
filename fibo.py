@@ -1,7 +1,5 @@
 def fibo (x):
-    a = 1
-    b = 1
-    c = 0
+    a,b,c = 1, 1, 0
     for elem in range (x):
         print (a)
         c = a + b
